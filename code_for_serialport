@@ -7,7 +7,7 @@ import time
 
 # Connect arduino to serial port
 
-arduino = serial.Serial('/dev/ttyUSB0', 9600)
+arduino = serial.Serial('/dev/ttyUSB0', 9600) #verificar porta correta, ex: COM3 no Windows, /dev/ttyUSB0 no Linux
 time.sleep(2) #wait until the connection stabilizes
 
 # Sending command to turn on the led
